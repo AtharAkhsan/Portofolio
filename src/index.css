@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "Space Grotesk", monospace;
+  
+  --color-background: #121212;
+  --color-foreground: #ffffff;
+  
+  /* Monochromatic accents for the minimalist theme */
+  --color-accent: #e0e0e0;
+  --color-accent-hover: #ffffff;
+  --color-accent-muted: #2a2a2a;
+  --color-accent-border: #333333;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-accent-muted selection:text-foreground;
+  }
+}
