@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# Athar Iftikhar Akhsan - Portfolio Website 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code for my personal portfolio! This project is a modern, single-page web application built to showcase my skills as a **Frontend Developer & Interactive Media Builder**. It is designed with a "Clean Minimalist Theme," focusing on robust web architecture and immersive digital media.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Clean Minimalist Design**: A streamlined, modern aesthetic prioritizing readability, ample whitespace, and minimal distractions.
+- **Dark Mode Native**: A sleek, dark-themed base UI complemented by understated monochromatic accents. 
+- **Responsive Layout**: Fluidly scales across all screen sizes (desktop, tablet, mobile).
+- **Interactive UI**: Fluid micro-animations powered by Framer Motion.
+- **Project Showcase**: A dedicated "Quest Log" presenting featured projects, including live demos and source code links.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+This project leverages a modern frontend ecosystem:
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run this project locally, follow these steps:
 
-## Expanding the ESLint configuration
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Installation
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AtharAkhsan/portofolio.git
+   cd portofolio
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **View the application**
+   Open your browser and navigate to `http://localhost:5173/`
+
+## 📦 Build for Production
+To generate a production-ready build:
+```bash
+npm run build
 ```
+This will run the TypeScript compiler and Vite's build process. The optimized assets will be output to the `dist` directory.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📫 Contact
+Interested in starting a new co-op campaign? Let's connect!
+- **Email**: [atharakhsan9@gmail.com](mailto:atharakhsan9@gmail.com)
+- **LinkedIn**: [Athar Iftikhar Akhsan](http://www.linkedin.com/in/athar-iftikhar-akhsan)
+- **GitHub**: [@AtharAkhsan](https://github.com/AtharAkhsan/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+*Designed & Built by Athar Iftikhar Akhsan*
