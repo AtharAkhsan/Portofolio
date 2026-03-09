@@ -48,7 +48,7 @@ export function Hero() {
                             href="https://drive.google.com/file/d/1a0Ms3wQLN61Dzb78YonmvgffA0rgiqtf/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="w-full sm:w-auto px-8 py-3 rounded-lg bg-accent-muted border border-accent-border text-foreground font-semibold flex items-center justify-center gap-2 hover:bg-accent-hover transition-colors"
+                            className="w-full sm:w-auto px-8 py-3 rounded-lg bg-accent-muted border border-accent-border text-foreground font-semibold flex items-center justify-center gap-2 hover:bg-foreground hover:text-background transition-colors"
                         >
                             <Download size={18} />
                             Download Resume

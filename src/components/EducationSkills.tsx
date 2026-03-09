@@ -27,8 +27,9 @@ export function EducationSkills() {
                     transition={{ duration: 0.6 }}
                     className="mb-16"
                 >
-                    <h2 className="font-mono text-3xl md:text-4xl font-bold text-foreground mb-4 flex items-center gap-3">
-                        <span className="text-accent">&gt;</span>EDUCATION_AND_SKILLS
+                    <h2 className="font-mono text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <span className="text-accent">&gt;</span>
+                        <span className="break-words">EDUCATION_AND_SKILLS</span>
                     </h2>
                     <div className="w-24 h-1 bg-accent-muted"></div>
                 </motion.div>
